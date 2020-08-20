@@ -1,0 +1,142 @@
+.top-container{
+  background-color: #EAF6F6;
+  padding-top: 150px;
+  position: relative;
+}
+
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;}
+
+h1{
+  margin: 3.125rem auto 33.2px auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+
+h2{
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3{
+  font-family: 'Oswald', sans-serif;
+  color: #11999E;
+}
+
+hr{
+  border-style: dotted;
+  width: 5%;
+  height: 0;
+  border-width: 8px;
+  border-top: auto;
+  border-right: 0;
+  border-bottom: 0;
+  border-left: 0;
+  border-color: #EAF6F6;
+  margin: 70px auto 70px auto;
+}
+p{
+  margin-top: 0;
+}
+
+.middle-container{
+
+}
+.bottom-container{
+  background-color: #66BFBF;
+  margin-bottom: 0;
+  height: 200px;
+  }
+.pro{
+  text-decoration: underline;
+}
+
+.top-cloud{
+  position: absolute;
+  top: 50px;
+  right:300px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 200px;
+  bottom: 300px;
+}
+
+.image0{
+  margin-top: 40px;
+  width: 15%;
+}
+
+.image1{
+  width: 25%;
+  height: 25%;
+  background-color: #F0E68C;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
+
+.image2{
+  width: 25%;
+  height: 25%;
+  background-color: #F0E68C;
+  border-radius: 50%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  line-height: 2;
+  text-align: left;
+}
+
+.footer-link{
+  color: #11999E;
+  margin-left: 30px;
+  margin-right: 30px;
+  position: relative;
+  top: 50px;
+
+}
+
+.copyright{
+  color: #EAF6F6;
+  margin-bottom: 0;
+  position: relative;
+  top: 100px;
+  font-size: 0.72rem;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+.btn {
+  background: #66BFBF;
+  background-image: -webkit-linear-gradient(top, #66BFBF, #1e9494);
+  background-image: -moz-linear-gradient(top, #66BFBF, #1e9494);
+  background-image: -ms-linear-gradient(top, #66BFBF, #1e9494);
+  background-image: -o-linear-gradient(top, #66BFBF, #1e9494);
+  background-image: linear-gradient(to bottom, #66BFBF, #1e9494);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 22px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #1b4c6b;
+  text-decoration: none;
+}
